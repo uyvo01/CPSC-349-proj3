@@ -7,9 +7,10 @@ site: CPSC 349 - Project 3
     <link rel="stylesheet" href="https://unpkg.com/mvp.css">
 </head>
 
-<body bgColor=`{{avg_color}}`>
+<body style="background-color: {{photo.avg_color}}">
     <ul>
-        <li>Name: {{ alt }}</li>
-        <li>Photographer: {{ photographer }}</li>
+        <li>Name: {{ photo.alt }}</li>
+        <li>Photographer: {{ photo.photographer }}</li>
     </ul>
+    <div><img src ={{ photo.src.large }}></div>
 </body>
