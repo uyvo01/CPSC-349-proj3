@@ -4,8 +4,8 @@
  "type": "module",
  "description": "CPSC 349 - Project 3",
  "scripts": {
-  "build": "eleventy",
-  "start": "eleventy --serve"
+  "build": "npx @11ty/eleventy",
+  "start": "eleventy --serve --config=.eleventy.cjs"
  },
  "license": "UNLICENSED",
  "private": true,
