@@ -1,8 +1,8 @@
 {
-  "name": "cpsc349-project1",
+  "name": "cpsc349-project3",
   "version": "1.0.0",
   "type": "module",
-  "description": "CPSC 349 - Project 1",
+  "description": "CPSC 349 - Project 3",
   "scripts": {
     "start": "eleventy --serve --config=.eleventy.cjs"
   },
@@ -15,7 +15,7 @@
   },
   "main": "index.js",
   "bin": {
-    "cpsc349-project1": "bin/get-photos.js"
+    "cpsc349-project3": "bin/get-photos.js"
   },
   "keywords": [],
   "author": ""
