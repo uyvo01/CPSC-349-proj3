@@ -1,5 +1,5 @@
 # CPSC-349-PROJECT3
-## In this project applies the Eleventy static site generator to build a website showcasing a collection of photos.
+## In this project we apply the Eleventy static site generator to build a website showcasing a collection of photos.
 
 ## Learning goals for this project:
 1. Writing and building HTML5 pages
