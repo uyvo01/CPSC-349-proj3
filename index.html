@@ -3,24 +3,29 @@ layout: base
 title: Home page
 group: Group 8
 members: Nestor Reategui, Robin Dunne, Miles Chao, Uy Vo
-description: Collection photos about Sunset
+description: Collection photos about Winter
 ---
-<nav>
+<nav style="margin: 0 0 0;">
  <ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="about">About Us</a></li>
  </ul>
 </nav>
-<header>
+
+
+<header style="padding: 0;">
  <h1>{{ title }}</h1>
  <h2>{{ group }}</h2>
  <h2>{{ members }}</h2>
  <hr />
 </header>
 
+
 <body>
  <div>
-  <h2>{{description}}</h2>
+  <header>
+   <h2>{{description}}</h2>
+  </header>
  </div>
  <ul>
   {% for photo in photos.uq9nuzt.media -%}
