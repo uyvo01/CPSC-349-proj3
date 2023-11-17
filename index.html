@@ -2,35 +2,37 @@
 layout: base
 title: Home page
 group: Group 8
-description: Collection of Winter
+members: Nestor Reategui, Robin Dunne, Miles Chao, Uy Vo
+description: Collection photos about Sunset
 ---
 <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about">About Us</a></li>
-  </ul>
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about">About Us</a></li>
+ </ul>
 </nav>
 <header>
-  <h1>{{ title }}</h1>
-  <h2>{{ group }}</h2>
-  <hr />
+ <h1>{{ title }}</h1>
+ <h2>{{ group }}</h2>
+ <h2>{{ members }}</h2>
+ <hr />
 </header>
+
 <body>
-<header><div><h2>{{description}}</h2></div></header>
-  
-  <ul>
-    {% for photo in photos.uq9nuzt.media -%}
-        <a href= photos/{{ photo.id }}/index.html><img src={{ photo.src.tiny }}></a>
-    {% endfor -%}
-</ul>
+ <div>
+  <h2>{{description}}</h2>
+ </div>
+ <ul>
+  {% for photo in photos.vqbvmsm.media -%}
+  <a href=photos/{{ photo.id }}/index.html><img src={{ photo.src.tiny }}></a>
+  {% endfor -%}
+ </ul>
 </body>
 <footer>
-  <hr />
-  <p>
-    <small>
-      <a href="https://www.pexels.com" target="_blank"
-        >Photos provided by Pexels</a
-      >
-    </small>
-  </p>
+ <hr />
+ <p>
+  <small>
+   <a href="https://www.pexels.com" target="_blank">Photos provided by Pexels</a>
+  </small>
+ </p>
 </footer>
