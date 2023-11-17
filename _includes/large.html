@@ -3,17 +3,19 @@ site: CPSC 349 - Project 3
 ---
 
 <head>
-    <title>{{ title }} - {{ site }}</title>
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+ <title>{{ title }} - {{ site }}</title>
+ <link rel="stylesheet" href="https://unpkg.com/mvp.css">
 </head>
 
 <body style="background-color: {{photo.avg_color}}">
-<header>
-    <ul style="color: purple">
-        <li>Name: {{ photo.alt }}</li>
-        <li>Photographer: {{ photo.photographer }}</li>
-    </ul>
-    <hr>
-    <div><img src ={{ photo.src.large }}></div>
-</header>
+ <header>
+  <ul style="color: purple">
+   Name: {{ photo.alt }}
+  </ul>
+  <ul style="color: purple;">
+   Photographer: {{ photo.photographer }}
+  </ul>
+  <hr>
+  <div><img src={{ photo.src.large }}></div>
+ </header>
 </body>
