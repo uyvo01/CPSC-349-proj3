@@ -8,9 +8,12 @@ site: CPSC 349 - Project 3
 </head>
 
 <body style="background-color: {{photo.avg_color}}">
-    <ul>
+<header>
+    <ul style="color: purple">
         <li>Name: {{ photo.alt }}</li>
         <li>Photographer: {{ photo.photographer }}</li>
     </ul>
+    <hr>
     <div><img src ={{ photo.src.large }}></div>
+</header>
 </body>
